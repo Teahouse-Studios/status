@@ -4,15 +4,15 @@ repo: status # Your Github repository name
 
 # Add your sites here
 sites:
-  - name: 主页
+  - name: Teahouse Studios 主页（Home）
     url: https://teahou.se/
-  - name: 梗体中文 · 在线构建
+  - name: 梗体中文 · 在线构建（Web Builder）
     url: https://dl.meme.teahou.se
     icon: https://fe.wd-ljt.com/meme/favicon.ico
-  - name: 在线构建 CDN 服务
+  - name: Web Builder CDN 服务
     url: https://fe.wd-ljt.com/meme/index.html
     icon: https://blog-assets.wd-ljt.com/wp-content/uploads/2019/10/cropped-2019101308430183-192x192.png
-  - name: 在线构建 API 服务
+  - name: Web Builder API 服务
     url: https://meme.wd-api.com/
     icon: https://blog-assets.wd-ljt.com/wp-content/uploads/2019/10/cropped-2019101308430183-192x192.png
 

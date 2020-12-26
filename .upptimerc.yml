@@ -8,26 +8,78 @@ sites:
     url: https://teahou.se/
   - name: 梗体中文 · 在线构建
     url: https://dl.meme.teahou.se
+    icon: https://fe.wd-ljt.com/meme/favicon.ico
   - name: 在线构建 CDN 服务
     url: https://fe.wd-ljt.com/meme/index.html
+    icon: https://blog-assets.wd-ljt.com/wp-content/uploads/2019/10/cropped-2019101308430183-192x192.png
   - name: 在线构建 API 服务
     url: https://meme.wd-api.com/
+    icon: https://blog-assets.wd-ljt.com/wp-content/uploads/2019/10/cropped-2019101308430183-192x192.png
 
+assignees:
+  - Dianliang233
+  - XxLittleCxX
 
 status-website:
   # Add your custom domain below, or remove the next line if you don't have a domain
   cname: status.teahou.se
-  # Uncomment the following line if you don't have a custom domain and add your repo name
-  # baseUrl: /upptime
-  logoUrl: https://raw.githubusercontent.com/upptime/upptime.js.org/master/static/img/icon.svg
-  name: Upptime
-  introTitle: "**Upptime** is the open-source uptime monitor and status page, powered entirely by GitHub."
-  introMessage: This is a sample status page which uses **real-time** data from our [Github repository](https://github.com/upptime/upptime). No server required — just GitHub Actions, Issues, and Pages. [**Get your own for free**](https://github.com/upptime/upptime)
+  logoUrl: https://teahou.se/favicon.ico
+  name: Teahouse Studios 服务状态
+  introTitle: "欢迎来到 Teahouse Studios Service Status。"
+  introMessage: 您可以在这个第三方服务中查看 [Teahouse Studios](https://teahou.se/) 所有 Web 服务的运作情况。
   navbar:
-    - title: Status
-      href: /
+    - title: 返回主页
+      href: https://teahou.se/
     - title: GitHub
       href: https://github.com/$OWNER/$REPO
+
+i18n:
+  activeIncidents: 活跃事故
+  allSystemsOperational: 所有系统均正常
+  incidentReport: "#$NUMBER 号事故报告 →"
+  activeIncidentSummary: 开始于 $DATE · 有 $POSTS 则跟进
+  incidentTitle: "#$NUMBER 号事故细节"
+  incidentDetails: 事故细节
+  incidentFixed: 已修复
+  incidentOngoing: 持续中
+  incidentOpenedAt: 开始于
+  incidentClosedAt: 结束于
+  incidentSubscribe: 关注跟进
+  incidentViewOnGitHub: 在 GitHub 上查看
+  incidentCommentSummary: $DATE · $AUTHOR
+  incidentBack: ← 返回至所有事故
+  pastIncidents: 过去的事故
+  pastIncidentsResolved: 解决时间 $MINUTES 分钟 · $POSTS 则跟进
+  liveStatus: 实时状态
+  overallUptime: "总计在线时间：$UPTIME"
+  overallUptimeTitle: 总计在线时间
+  averageResponseTime: "平均延迟：$TIMEms"
+  averageResponseTimeTitle: 平均延迟
+  sevelDayResponseTime: 延迟时间（7 天）图表
+  responseTimeMs: 延迟时间（毫秒）
+  up: 在线
+  down: 宕机
+  degraded: 部分
+  ms: ms
+  loading: 加载中
+  navGitHub: GitHub
+  footer: 本页面[开放源代码]($REPO) · 由 [Upptime](https://upptime.js.org) 提供支持
+  rateLimitExceededTitle: 已超过速率限制
+  rateLimitExceededIntro: 您已经超过了这个小时可以发送的请求的限制。因此，在您再次访问本网站前，您需要等待。或者，您也可以添加一个 GitHub Personal Access Token（GitHub 个人访问密钥）来继续使用本网站。
+  rateLimitExceededWhatDoesErrorMean: 这个错误是什么意思？
+  rateLimitExceededErrorMeaning: 本网站使用 GitHub API 来访问我们的网站的实时状态数据。GitHub 默认允许每一个 IP 地址每小时发送 60 个请求，然而您已经超过了这个限制。
+  rateLimitExceededErrorHowCanFix: 如何修复？
+  rateLimitExceededErrorFix: 您可以再等待一个小时。这样，您的 IP 地址的限制就会恢复正常。或者，您也可以添加一个 GitHub Personal Access Token（GitHub 个人访问密钥），这样可以放宽您的限制到 5000 次。
+  rateLimitExceededGeneratePAT: 了解如何添加 GitHub Personal Access Token（GitHub 个人访问密钥）
+  rateLimitExceededHasSet: GitHub Personal Access Token（GitHub 个人访问密钥）已设置。
+  rateLimitExceededRemoveToken: 移除密钥
+  rateLimitExceededGitHubPAT: GitHub Personal Access Token（GitHub 个人访问密钥）
+  rateLimitExceededCopyPastePAT: 复制粘贴您的密钥
+  rateLimitExceededSaveToken: 保存密钥
+  errorTitle: 错误
+  errorIntro: 尝试拉取最新的状态细节时发生了错误。
+  errorText: 请稍后再试。
+  errorHome: 带我回家
 
 # Upptime also supports notifications, assigning issues, and more
 # See https://upptime.js.org/docs/configuration

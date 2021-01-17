@@ -80,6 +80,14 @@ i18n:
   errorIntro: 尝试拉取最新的状态细节时发生了错误。
   errorText: 请稍后再试。
   errorHome: 带我回家
+  degradedPerformance: "🟨 性能降级"
+  completeOutage: "🟥 服务完全中断"
+  partialOutage: "🟧 服务部分中断"
+  duration24H: 24小时
+  duration7D: 7天
+  duration30D: 30天
+  duration1Y: 1年
+  durationAll: 全时段
 
 # Upptime also supports notifications, assigning issues, and more
 # See https://upptime.js.org/docs/configuration
